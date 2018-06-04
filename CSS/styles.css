@@ -1,0 +1,461 @@
+html{
+	height: 100%;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	min-height: 100%;
+}
+
+#splashcontainer{
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+	grid-template-columns:70% 30%;
+	grid-template-rows: 100%;
+}
+
+.splashimg{
+	background-color: #333333;
+	text-align: center;
+}
+
+.splashtitle{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 40px;
+}
+
+svg {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10vh;
+}
+
+path {
+  fill: none;
+  stroke: lightgrey;
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+
+.splashlogo{
+	margin-top: 25vh;
+	margin-bottom: 30px;
+}
+
+.splashcontent{
+	background-color: white;
+	text-align: center;
+	max-width: 250px;
+	margin: 0 auto;
+}
+
+.splashbarlink{
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+	color: #333333;
+	font-size: 22px;
+	font-family: 'Josefin Slab', serif;
+	font-weight: 800;
+}
+
+#container{
+	min-height: 100%;
+	margin-bottom: -150px;
+}
+
+#push{
+	height: 70px;
+}
+
+#navbar{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	height: 100px;
+	
+	margin: 0 auto;
+	margin-top: 10px;
+	max-width: 1200px;
+}
+
+.navbaritem{
+	text-align: center;
+}
+
+.navtext{
+	margin-top: 35px;
+}
+
+.navbaritem a{
+	text-decoration: none;
+	display: inline-block;
+
+	padding: 10px;
+	color: #333333;
+	font-size: 22px;
+	font-family: 'Josefin Slab', serif;
+	font-weight: 800;
+}
+
+.navtext a:hover{
+	text-decoration: underline;
+}
+
+.portfoliogrid{
+	width: 800px;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 150px 150px 150px 150px;
+	grid-row-gap: 20px;
+	grid-column-gap: 20px;
+}
+
+.filler{
+	background-color: #333333;
+	background-image: url('../IMAGES/kiwiventure_bg.png');
+	background-position: center;
+	transition-duration:0.5s;
+	position: relative;
+	cursor: pointer;
+	box-shadow: 2px 2px 3px 2px #bfbfbf;
+}
+
+.portfolioitem1{
+	background-image: url('../IMAGES/citytosea_bg.png');
+}
+
+.portfolioitem2{
+	background-image: url('../IMAGES/onefatbird_bg.png');
+}
+
+.portfolioitem3{
+	background-image: url('../IMAGES/kiwiventure_bg.png');
+}
+
+.portfolioitem4{
+	background-image: url('../IMAGES/randomword_bg.png');
+}
+
+.portfolioitem5{
+	background-image: url('../IMAGES/discoverwellington_bg.png');
+}
+
+.portfolioitem6{
+	background-image: url('../IMAGES/horserace_bg.png');
+}
+
+.portfolioitem7{
+	background-image: url('../IMAGES/kazu_bg.png');
+}
+
+.portfolioitem8{
+	background-image: url('../IMAGES/gutterkitties_bg.png');
+}
+
+
+.lowtext{
+	opacity: 0;
+	height: 40px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(51, 51, 51, 0.7);
+
+	transition-duration:0.5s;
+}
+
+.lowtext h3{
+	color: white;
+	margin: 4px;
+	margin-top: 2px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+
+}
+
+.lowtext p{
+	color: white;
+	margin: 4px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	font-size: 10px;
+
+}
+
+#footer{
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 0;
+	background-color: #333333;
+	height: 70px;
+	position: absolute;
+	bottom: 0;
+}
+
+.maincontent{
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	width: 800px;
+	height: 200px;
+	display: grid;
+	grid-template-columns: 200px 560px;
+	grid-column-gap: 40px;
+
+}
+
+.descriptiondiv{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+.abouth3{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	text-align: center;
+	margin: 30px;
+}
+
+.descriptiondiv h3{
+	margin-top: 0;
+}
+
+.portraitdiv{
+	margin: 0 auto;
+	max-width: 200px;
+}
+.portraitdiv img{
+	width: 100%;
+	border-radius: 360px;
+}
+
+.lowermain{
+	margin: 0 auto;
+	width: 800px;
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr;
+	grid-template-rows:150px;
+	grid-column-gap: 40px;
+	text-align: center;
+}
+
+.lowermain i{
+	font-size: 70px;
+	color: #333333;
+}
+
+.lowermain p{
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+.phonediv,.emaildiv{
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+}
+
+.contacticon{
+	display: inline-block;
+}
+
+.phonediv p, .emaildiv p{
+	display: inline-block;
+}
+
+#contactform{
+	width: 800px;
+	text-align: center;
+	display: grid;
+	grid-template-columns: 400px 400px;
+	margin: 0 auto;
+	margin-top: 200px;
+	margin-bottom: 100px;
+}
+
+.contactaftertext{
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	text-align: center;
+}
+
+.topmenuicon{
+	display: none;
+	margin: 0;
+}
+
+.footertext{
+	display: inline-block;
+	color: white;
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	padding: 8px;
+}
+
+#footer i{
+	padding: 8px;
+	color: white;
+	font-size: 30px;
+	float: right;
+	display: inline-block;
+}
+
+.modallink{
+	display: inline;
+}
+
+.popupmodal{
+	width: 400px;
+	max-width: 100%;
+	height: 450px;
+	padding: 0;
+	padding-top: 20px;
+}
+
+.modaltitle{
+	padding: 4px;
+	color: #333333;
+	margin: 4px;
+	margin-top: 2px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+}
+
+.modalsubtitle{
+	padding: 4px;
+	color: #333333;
+	margin: 4px;
+	margin-top: 2px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.modaldescription{
+	color: #333333;
+	margin: 4px;
+	padding: 4px;
+	margin-top: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+.visitbutton button{
+	float: right;
+	margin: 8px;
+	border: none;
+	background-color: #333333;
+	color: white;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+}
+
+/*Media quueries*/
+@media only screen and (max-width: 840px) {
+    .portfoliogrid{
+	width: 100%;
+	margin-top: 0px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 150px 150px 150px 150px 150px 150px;
+}
+
+.topmenuicon{
+	margin-top: 10px;
+	display: block;
+	text-align: center;
+}
+.bigmenuicon{
+	display: none;
+}
+
+#navbar{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	height: 60px;
+	margin-top: 0
+}
+
+.navtext{
+	margin-top: 15px;
+}
+.navbaritem a{
+	padding: 10px;
+	color: #333333;
+	font-size: 18px;
+	font-weight: 800;
+}
+
+.maincontent{
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 340px;
+	width: 100%;
+	height: 200px;
+	display: grid;
+	grid-template-columns: 100%;
+	grid-column-gap: 40px;
+
+}
+
+.descriptiondiv{
+	padding-top: 25px;
+	margin: 0 auto;
+	max-width: 85%;
+}
+
+.lowermain{
+	margin: 0 auto;
+	padding-bottom: 40px;
+	width: 100%;
+	max-width: 300px;
+	display: grid;
+	grid-template-columns:100%;
+	grid-template-rows:150px 150px 150px;
+	grid-row-gap: 40px;
+	text-align: center;
+}
+
+#contactform{
+	width: 100%;
+	text-align: center;
+	display: grid;
+	grid-template-columns: 100%;
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	grid-row-gap: 80px;
+}
+
+#splashcontainer{
+	grid-template-columns: 100%;
+	grid-template-rows: 70vh 30vh;
+}
+
+.splashlogo{
+	margin-top: 30px;
+}
+}
