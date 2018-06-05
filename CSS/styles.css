@@ -17,8 +17,16 @@ body{
 	grid-template-rows: 100%;
 }
 
+.titlecontainer{
+	position: absolute;
+	top: 40%;
+	left: 20%;
+	right: 20%;
+}
+
 .splashimg{
 	background-color: #333333;
+	position: relative;
 	text-align: center;
 }
 
